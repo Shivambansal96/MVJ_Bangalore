@@ -31,22 +31,39 @@ class Day1 {
         //     System.out.println("Senior Citizen");
         // else 
         //     System.out.println("Super Senior Citizen");
-        int age = 94;
 
-        if (age >= 18) {
-            if (age >= 60) {
-                if (age >= 80) {
-                    System.out.println(" Super Senior Citizen");
-                } else {
-                    System.out.println("Senior Citizen");
-                }
-            } else {
-                System.out.println("Adult");
-            }
+        // int age = 94;
 
-        } else {
-            System.out.println("Minor");
+        // if (age >= 18) {
+        //     if (age >= 60) {
+        //         if (age >= 80) {
+        //             System.out.println(" Super Senior Citizen");
+        //         } else {
+        //             System.out.println("Senior Citizen");
+        //         }
+        //     } else {
+        //         System.out.println("Adult");
+        //     }
+
+        // } else {
+        //     System.out.println("Minor");
+        // }
+
+
+        int num = 123;
+        int originalNum = num;
+
+        int revNum = 0;
+        while(num != 0) {
+            int r = num % 10;
+            revNum = (revNum * 10) + r;
+            num /= 10;
         }
+
+        System.out.println("Reversed Number: " + revNum);
+        System.out.println(originalNum == revNum ? "Palindrome" : "NOT Palindrome");
+
+
 
     }
 }
