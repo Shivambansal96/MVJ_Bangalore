@@ -10,7 +10,7 @@
 
 Build the foundations one concept at a time: write and run Java programs, solve problems with conditions and loops, work with arrays and strings, organize logic into methods, understand recursion, and model real-world ideas with classes and objects.
 
-[Java PPT 👈](https://canva.link/4ut64mrfxt4cx83) <br>
+[Java PPT 👈](https://canva.link/4ut64mrfxt4cx83) <br>[Python PPT 👈](https://canva.link/mqbxk5phph7anr7) <br>
 [Java Questions 👈](https://canva.link/revlaa5terj13w4) <br>
 [TCS NQT Questions 👈](https://canva.link/oc4793ikp0lrkgu) <br>
 [Practice Portal 👈](https://skill.campuscredential.com) <br>
